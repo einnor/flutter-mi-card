@@ -76,6 +76,9 @@ class App extends StatelessWidget {
                       Icons.email,
                       color: Colors.teal,
                     ),
+                    SizedBox(
+                      width: 10.0,
+                    ),
                   ],
                 ),
               ),
