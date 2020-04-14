@@ -36,6 +36,19 @@ class App extends StatelessWidget {
                   fontWeight: FontWeight.bold,
                 ),
               ),
+              Container(
+                child: Row(
+                  children: <Widget>[
+                    Icon(
+                      Icons.phone,
+                      color: Colors.white,
+                    ),
+                    Text(
+                      '+254 724 052 900',
+                    ),
+                  ],
+                ),
+              ),
             ],
           ),
         ),
