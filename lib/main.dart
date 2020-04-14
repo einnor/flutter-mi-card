@@ -70,7 +70,14 @@ class App extends StatelessWidget {
                   horizontal: 20.0,
                 ),
                 padding: EdgeInsets.all(10.0),
-                child: Row(),
+                child: Row(
+                  children: <Widget>[
+                    Icon(
+                      Icons.email,
+                      color: Colors.teal,
+                    ),
+                  ],
+                ),
               ),
             ],
           ),
