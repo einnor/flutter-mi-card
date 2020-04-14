@@ -26,6 +26,15 @@ class App extends StatelessWidget {
                   color: Colors.white,
                 ),
               ),
+              Text(
+                'Technical Team Lead',
+                style: TextStyle(
+                  fontFamily: 'Source Sans Pro',
+                  color: Colors.teal.shade100,
+                  fontSize: 20.0,
+                  letterSpacing: 2.5,
+                ),
+              ),
             ],
           ),
         ),
