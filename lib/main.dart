@@ -63,6 +63,15 @@ class App extends StatelessWidget {
                   ],
                 ),
               ),
+              Container(
+                color: Colors.white,
+                margin: EdgeInsets.symmetric(
+                  vertical: 10.0,
+                  horizontal: 20.0,
+                ),
+                padding: EdgeInsets.all(10.0),
+                child: Row(),
+              ),
             ],
           ),
         ),
