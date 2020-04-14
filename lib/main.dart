@@ -42,26 +42,18 @@ class App extends StatelessWidget {
                   vertical: 10.0,
                   horizontal: 20.0,
                 ),
-                child: Padding(
-                  padding: const EdgeInsets.all(10.0),
-                  child: Row(
-                    children: <Widget>[
-                      Icon(
-                        Icons.phone,
-                        color: Colors.teal,
-                      ),
-                      SizedBox(
-                        width: 10.0,
-                      ),
-                      Text(
-                        '+254 724 052 900',
-                        style: TextStyle(
-                          color: Colors.teal.shade900,
-                          fontFamily: 'Source Sans Pro',
-                          fontSize: 20.0,
-                        ),
-                      ),
-                    ],
+                child: ListTile(
+                  leading: Icon(
+                    Icons.phone,
+                    color: Colors.teal,
+                  ),
+                  title: Text(
+                    '+254 724 052 900',
+                    style: TextStyle(
+                      color: Colors.teal.shade900,
+                      fontFamily: 'Source Sans Pro',
+                      fontSize: 20.0,
+                    ),
                   ),
                 ),
               ),
