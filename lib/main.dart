@@ -20,6 +20,7 @@ class App extends StatelessWidget {
               Text(
                 'Ronnie Nyaga',
                 style: TextStyle(
+                  fontFamily: 'Pacifico',
                   fontSize: 40.0,
                   fontWeight: FontWeight.bold,
                   color: Colors.white,
