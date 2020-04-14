@@ -79,6 +79,14 @@ class App extends StatelessWidget {
                     SizedBox(
                       width: 10.0,
                     ),
+                    Text(
+                      'ronnienyaga@gmail.com',
+                      style: TextStyle(
+                        color: Colors.teal.shade900,
+                        fontFamily: 'Source Sans Pro',
+                        fontSize: 20.0,
+                      ),
+                    ),
                   ],
                 ),
               ),
