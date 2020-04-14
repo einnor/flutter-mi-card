@@ -17,6 +17,14 @@ class App extends StatelessWidget {
                 radius: 50.0,
                 backgroundImage: AssetImage('images/avatar.jpeg'),
               ),
+              Text(
+                'Ronnie Nyaga',
+                style: TextStyle(
+                  fontSize: 40.0,
+                  fontWeight: FontWeight.bold,
+                  color: Colors.white,
+                ),
+              ),
             ],
           ),
         ),
